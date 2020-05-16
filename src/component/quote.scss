@@ -1,0 +1,29 @@
+.desc{
+    margin-left: 0;
+    display: block; 
+    font-size: 0.9em; 
+    overflow: auto; 
+    overflow-scrolling: touch; 
+    border-left: 4px solid #009688; 
+    background: #ECF0F1; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    margin-top: 1.2em; 
+    margin-bottom: 1.2em; 
+    padding-right: 1em; 
+    padding-left: 1em; 
+    border-left-width: 4px; 
+    color: #34495E; 
+    quotes: none;
+    .desc-p{
+        padding-top: 8px; 
+        padding-bottom: 8px; 
+        box-sizing: border-box; 
+        text-align: start; 
+        white-space: normal; 
+        text-size-adjust: auto; 
+        margin: 0px; font-size: 15px; 
+        color:#34495E;
+        font-family: -apple-system-font, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei UI', 'Microsoft YaHei', Arial, sans-serif; color: rgb(119, 119, 119); line-height: 1.75em;
+    }
+}
