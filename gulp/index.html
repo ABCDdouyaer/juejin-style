@@ -7,6 +7,85 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-<div id="app"><table class="table1"><thead><tr><th>静态属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>6️⃣ from</p></td><td><p>1.Array.from(arrayLike[, mapFn[, thisArg]])</p><p>2.类数组和迭代器[map方法 [map方法的this]]</p><p>3.从一个类似数组或可迭代对象创建一个新的，浅拷贝的数组实例</p></td></tr><tr><td><p>6️⃣ isArray</p></td><td></td></tr><tr><td><p>6️⃣ of</p></td><td><p>1.一个整数参数则返回[num], Array返回[ &lt;7 empty items&gt; ] of返回[ 7 ]</p></td></tr><tr><td><p>🍀 Symbol.species</p></td><td><p>1.返回Array的构造函数</p><p>2.Array[Symbol.species] === Array</p></td></tr></tbody></table><table class="table1"><thead><tr><th>原型属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>🍀 concat</p></td><td><p>1.不改变原数组，返回新数组</p></td></tr><tr><td><p>🍀 join</p></td><td></td></tr><tr><td><p>🍀 reverse</p></td><td></td></tr><tr><td><p>🍀 slice</p></td><td></td></tr><tr><td><p>🍀 splice</p></td><td><p>1.array.splice(start[, deleteCount[, item1[, item2[, ...]]]])</p></td></tr><tr><td><p>🍀 sort</p></td><td><p>1.1变换位置，0和-1不动</p></td></tr><tr><td><p>🍀 pop</p><p>🍀 shift</p></td><td><p>1.返回删除的元素</p></td></tr><tr><td><p>🍀 push</p><p>🍀 unshift</p></td><td><p>1.返回数组的长度</p></td></tr><tr><td><p>🍀 indexOf</p><p>🍀 lastIndexOf</p></td><td></td></tr><tr><td><p>6️⃣ includes</p></td><td><p>1.arr.includes(valueToFind[, fromIndex])</p><p>2.与indexOf区别，NaN相等 ±0不等</p></td></tr><tr><td><p>6️⃣ copyWithin</p></td><td><p>1.arr.copyWithin(target[, start[, end]])</p><p>2.target: 开始复制到的位置, start|end 开始结束需要复制的位置</p><p>3.浅复制数组的一部分到同一数组中的另一个位置，并返回它，会改变原数组</p></td></tr><tr><td><p>6️⃣ entries</p><p>6️⃣ values</p><p>6️⃣ keys</p></td><td><p>1.返回一个新的Array Iterator对象，该对象包含数组中每个索引的键/值对</p></td></tr><tr><td><p>🍀 every</p><p>🍀 some</p><p>🍀 filter</p><p>🍀 map</p><p>🍀 forEach</p><p>🍀 reduce</p><p>🍀 reduceRight</p></td><td></td></tr><tr><td><p>6️⃣ fill</p></td><td><p>1.arr.fill(value[, start[, end]])</p><p>2.返回修改后的数组，会改变原数组</p></td></tr><tr><td><p>6️⃣ find</p><p>6️⃣ findIndex</p></td><td><p>1.返回符合条件的第一个元素/下标</p></td></tr><tr><td><p>6️⃣ flatMap</p></td><td><p>1.参数类似map的回调函数</p><p>2.将类似map的返回数组铺平</p></td></tr><tr><td><p>🍀 toString</p><p>🍀 toLocaleString</p></td><td><p>1.返回逗号分隔的字符串</p></td></tr><tr><td><p>🍀 Symbol.iterator</p></td><td><p>1.返回一个生成器函数，调用返回vaules的迭代器</p></td></tr><tr><td><p>🍀 Symbol.unscopables</p></td><td><p>1.ES6新增的属性在with上面未绑定被包含在该属性中</p></td></tr></tbody></table><table class="table1"><thead><tr><th>静态属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>🍀 arguments</p></td><td></td></tr><tr><td><p>🍀 caller</p><p>🍀 length</p></td><td><p>1.返回调用该函数的函数</p><p>2.返回函数形参个数</p></td></tr><tr><td><p>🍀 length</p></td><td><p>1.返回调用该函数的函数</p></td></tr><tr><td><p>🍀 name</p></td><td><p>1.foo: 普通函数 | 推断函数</p><p>2.anonymous: 构造函数</p><p>3.bound foo | set foo | get foo : bind | set | get</p><p>4.logs Foo: class</p></td></tr></tbody></table><table class="table1"><thead><tr><th>原型属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>🍀 apply</p></td><td></td></tr><tr><td><p>🍀 bind</p></td><td></td></tr><tr><td><p>6️⃣ toString</p></td><td><p>1.toString()方法返回函数代码本身，以前会省略注释和空格。</p></td></tr></tbody></table><table class="table1"><thead><tr><th>静态属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>6️⃣ assign</p></td><td></td></tr><tr><td><p>6️⃣ is</p></td><td><p>1.修正NaN和±0</p></td></tr><tr><td><p>🍀 create</p></td><td><p>1.create(proto[, propertiesObject])</p></td></tr><tr><td><p>🍀 defineProperty</p><p>🍀 defineProperties</p></td><td><p>1.configurable | enumerable | value | writable | get | set</p></td></tr><tr><td><p>6️⃣ entries</p><p>6️⃣ values</p><p>6️⃣ keys</p></td><td></td></tr><tr><td><p>6️⃣ fromEntries</p></td><td><p>1.Map或者二维数组转对象</p></td></tr><tr><td><p>🍀 freeze</p><p>🍀 isFrozen</p></td><td><p>1.已冻结的对象不能添加新属性</p><p>2.不能删除已有属性</p><p>3.不能修改已有属性的可枚举/可配置性/可写性/值</p><p>4.原型也不能修改</p></td></tr><tr><td><p>🍀 seal</p><p>🍀 isSealed</p></td><td><p>1.封存对象，阻止添加新属性</p><p>2.将现有所有属性标记为不可配置</p><p>3.当前的值之前如果可写就可以改变</p></td></tr><tr><td><p>🍀 preventExtensions</p><p>🍀 isExtensible</p></td><td><p>1.对象不可扩展，永远不能再添加新属性</p></td></tr><tr><td><p>6️⃣ getOwnPropertyDescriptor</p><p>6️⃣ getOwnPropertyDescriptors</p></td><td><p>1.返回对象自有属性的属性描述符</p></td></tr><tr><td><p>🍀 getOwnPropertyNames</p></td><td><p>1.返回自身属性包括不可枚举属性组成的数组</p><p>2.不包括Symbol属性</p></td></tr><tr><td><p>6️⃣ getOwnPropertySymbols</p></td><td><p>1.只返回自身所有Symbol属性组成的数组</p></td></tr><tr><td><p>6️⃣ getPrototypeOf</p><p>6️⃣ setPrototypeOf</p></td><td></td></tr><tr><td><p>🍀 prototype</p></td><td></td></tr></tbody></table><table class="table1"><thead><tr><th>原型属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>🍀 __proto__</p></td><td></td></tr><tr><td><p>🍀 valueOf</p></td><td></td></tr><tr><td><p>🍀 constructor</p></td><td></td></tr><tr><td><p>🚯 __defineGetter__</p><p>🚯 __defineSetter__</p></td><td><p>1.obj.__defineGetter__(prop, func)</p><p>2.当对象的属性被读写时，后面的函数会被调用</p><p>3.函数上下文为该对象</p></td></tr><tr><td><p>🚯 __lookupGetter__</p><p>🚯 __lookupSetter__</p></td><td><p>1.obj.__lookupGetter__(sprop)</p><p>2.返回对象某个属性的访问器函数</p></td></tr><tr><td><p>🍀 hasOwnProperty</p></td><td></td></tr><tr><td><p>🍀 isPrototypeOf</p></td><td><p>1.测试一个对象是否存在于另一个对象的原型链上</p><p>2.区别于instanceof,object 的原型链是针对 AFunction.prototype 进行检查的，而不是针对 AFunction 本身</p></td></tr><tr><td><p>🍀 propertyIsEnumerable</p></td><td></td></tr><tr><td><p>🍀 toLocaleString</p><p>🍀 toString</p></td><td><p>1.返回对象字符串[object object]</p></td></tr></tbody></table><table class="table1"><thead><tr><th>静态属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>6️⃣ apply</p></td><td><p>1.Reflect.apply(target, thisArgument, argumentsList)</p><p>2.new Proxy(target, {apply(target, object, args){}})</p><p>3.函数，this, 参数</p></td></tr><tr><td><p>6️⃣ constructor</p></td><td><p>1.Reflect.construct(target, argumentsList[, newTarget])</p><p>2.new Proxy(target, {construct(target, args){}})</p><p>3.构造函数，参数, 调用构造函数的this</p></td></tr><tr><td><p>6️⃣ defineProperty</p></td><td><p>1.Reflect.defineProperty(target, propertyKey, attributes)</p><p>2.new Proxy(target, {defineProperty(target, propKey, propDesc){}})</p><p>3.对象，属性, 属性描述符</p></td></tr><tr><td><p>6️⃣ deleteProperty</p></td><td><p>1.Reflect.deleteProperty(target, propertyKey)</p><p>2.new Proxy(target, {deleteProperty(target, propKey){}})</p><p>3.，返回bool表示是否成功</p></td></tr><tr><td><p>6️⃣ get</p></td><td><p>1.Reflect.get(target, propertyKey[, receiver])</p><p>2.new Proxy(target, {get(target, propKey, receiver){}})</p><p>3.对象，属性，调用的this</p><p>4.获取对象的属性值，</p></td></tr><tr><td><p>6️⃣ set</p></td><td><p>1.Reflect.set(target, propertyKey, value[, receiver])</p><p>2.new Proxy(target, {set(target, propKey, value, receiver){}})</p><p>3.设置对象的属性值，返回bool表示是否成功</p></td></tr><tr><td><p>6️⃣ has</p></td><td><p>1.Reflect.has(target, propertyKey)</p><p>2.new Proxy(target, {has(target, propKey){}})</p><p>3.同in操作符</p></td></tr><tr><td><p>6️⃣ getOwnPropertyDescriptor</p></td><td><p>1.Reflect.getOwnPropertyDescriptor(target, propertyKey)</p><p>2.new Proxy(target, { getOwnPropertyDescriptor(target, propKey){}})</p></td></tr><tr><td><p>6️⃣ getPropertyOf</p></td><td><p>1.Reflect.getPrototypeOf(target)</p><p>2.new Proxy(target, { getPrototypeOf(target){}})</p></td></tr><tr><td><p>6️⃣ setPrototypeOf</p></td><td><p>1.Reflect.setPrototypeOf(target, prototype)</p><p>2.new Proxy(target, { setPrototypeOf(target, proto){}})</p><p>3.返回bool表示是否设置成功</p></td></tr><tr><td><p>6️⃣ isExtensible</p></td><td><p>1.Reflect.isExtensible(target)</p><p>2.new Proxy(target, { isExtensible(target){}})</p><p>3.返回bool</p></td></tr><tr><td><p>6️⃣ preventExtensions</p></td><td><p>1.Reflect.preventExtensions(target)</p><p>2.new Proxy(target, { preventExtensions(target){}})</p><p>3.返回bool表示是否阻止成功</p></td></tr><tr><td><p>6️⃣ ownKeys</p></td><td><p>1.Reflect.ownKeys(target)</p><p>2.new Proxy(target, { ownKeys(target){}})</p><p>3.等同于Object.getOwnPropertyNames(target).concat(Object.getOwnPropertySymbol</p></td></tr></tbody></table><table class="table1"><thead><tr><th>静态属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>🍀 fromCharCode</p></td><td></td></tr><tr><td><p>6️⃣ fromCodePoint</p></td><td><p>1.识别大于0xFFFF的码点</p></td></tr><tr><td><p>6️⃣ raw</p></td><td><p>1.斜杠被转义</p><p>2.用于模板字符的处理</p></td></tr></tbody></table><table class="table1"><thead><tr><th>原型属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>🍀 charAt</p><p>🍀 charCodeAt</p><p>6️⃣ codePointAt</p><p>🍀 normalize</p></td><td><p>1.charAt不支持负数，超出0~len-1返回空字符串</p></td></tr><tr><td><p>🍀 concat</p><p>6️⃣ includes</p><p>🍀 slice</p></td><td></td></tr><tr><td><p>6️⃣ startsWith</p><p>6️⃣ endsWith</p></td><td><p>1.string.startsWith(searchvalue, start)</p><p>2.start不支持负数</p></td></tr><tr><td><p>🍀 indexOf</p><p>🍀 lastIndexOf</p></td><td><p>1.string.indexOf(searchvalue,start)</p></td></tr><tr><td><p>6️⃣ padStart</p><p>6️⃣ padEnd</p></td><td></td></tr><tr><td><p>🍀 trim</p><p>🍀 trimLeft</p><p>🍀 trimRight</p><p>6️⃣ trimStart</p><p>6️⃣ trimEnd</p></td><td></td></tr><tr><td><p>🍀 search</p></td><td><p>1.同indexOf</p><p>2.返回匹配到的子字符串的起始位置</p><p>3.不存在返回-1</p></td></tr><tr><td><p>🍀 replace</p></td><td><p>1.第二个参数为函数，入参为（匹配到的子串，...正则括号匹配到的，偏移量）</p></td></tr><tr><td><p>🍀 match</p><p>6️⃣ matchAll</p></td><td><p>1.match返回匹配结果数组或者null</p><p>2.matchAll返回匹配到结果及其分组捕获组的迭代器</p></td></tr><tr><td><p>🍀 localeCompare</p></td><td></td></tr><tr><td><p>🍀 repeat</p></td><td></td></tr><tr><td><p>🍀 split</p></td><td></td></tr><tr><td><p>🚯 subStr</p><p>🍀 subString</p></td><td></td></tr><tr><td><p>🍀 toLocaleLowerCase</p><p>🍀 toLowerCase</p></td><td></td></tr><tr><td><p>🍀 toLocaleUpperCase</p><p>🍀 toUpperCase</p></td><td></td></tr><tr><td><p>🍀 length</p></td><td></td></tr><tr><td><p>🍀 Symbol.iterator</p></td><td><p>1.返回迭代器数组</p></td></tr></tbody></table><table class="table1"><thead><tr><th>静态属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>6️⃣ asyncIterator</p></td><td><p>1.异步迭代对象调用的方法</p><p>2.for await ...of</p></td></tr><tr><td><p>6️⃣ hasInstance</p></td><td><p>1.instanceof 调用的内部方法</p></td></tr><tr><td><p>6️⃣ isConcatSpreadable</p></td><td><p>1.控制数组的concat方法是否展开</p></td></tr><tr><td><p>6️⃣ iterator</p></td><td><p>1.为对象定义迭代器方法</p></td></tr><tr><td><p>6️⃣ match</p><p>6️⃣ matchAll</p><p>6️⃣ replace</p><p>6️⃣ search</p><p>6️⃣ split</p></td><td><p>1.调用字符串的这些方法，会获取对应内置函数的返回值</p></td></tr><tr><td><p>6️⃣ species</p></td><td><p>1.更改衍生对象的构造器函数</p></td></tr><tr><td><p>6️⃣ toPrimitive</p></td><td><p>1.对象被转为基本类型的时候会获取该方法的返回值，入参number/string/default</p></td></tr><tr><td><p>6️⃣ toStringTag</p></td><td><p>1.指定Object.prototype.toString的返回值第二个内容 [object Array]</p></td></tr><tr><td><p>6️⃣ unscopables</p></td><td><p>1.指向一个对象，该对象的属性里包含被with排除的属性</p></td></tr><tr><td><p>6️⃣ for</p></td><td><p>1.有key直接用没有则注册表创建</p></td></tr><tr><td><p>6️⃣ keyFor</p></td><td><p>1.返回Symbol的key</p></td></tr></tbody></table><table class="table1"><thead><tr><th>原型属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>6️⃣ description</p></td><td><p>1.同keyFor</p></td></tr><tr><td><p>6️⃣ toString</p></td><td><p>1.Symbol('key')</p></td></tr><tr><td><p>6️⃣ valueOf</p></td><td></td></tr><tr><td><p>6️⃣ toPrimitive</p></td><td></td></tr></tbody></table><table class="table1"><thead><tr><th>静态属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>6️⃣ EPSILON</p></td><td><p>1.等于2^-52</p><p>2.表示两个数是否相等Math.abs(x - y) &lt; Number.EPSILON</p></td></tr><tr><td><p>🍀 MAX_SAFE_INTEGER</p><p>🍀 MIN_SAFE_INTEGER</p><p>🍀 MAX_VALUE</p><p>🍀 MIN_VALUE</p></td><td><p>1.安全数范围[-2^53+1, 2^53-1]</p><p>2.js所能表示的最大和最小值 待研究</p></td></tr><tr><td><p>🍀 NEGATIVE_INFINITY</p><p>🍀 POSITIVE_INFINITY</p><p>🍀 NaN</p></td><td><p>1.-Infinity | Infinity | NaN</p></td></tr><tr><td><p>6️⃣ isFinite</p><p>6️⃣ isInteger</p><p>6️⃣ isNaN</p><p>6️⃣ isSafeInteger</p></td><td><p>1.是否有穷</p><p>2.是整数</p><p>3.是否为NaN</p><p>4.是安全整数</p></td></tr><tr><td><p>6️⃣ parseFloat</p><p>6️⃣ parseInt</p></td><td><p>1.字符串解析为数</p><p>2.解析不了返回NaN</p></td></tr></tbody></table><table class="table1"><thead><tr><th>原型属性、方法名</th><th>注释</th></tr></thead><tbody><tr><td><p>🍀 toExponential</p></td><td><p>1.指数形式表示数</p></td></tr><tr><td><p>🍀 toFixed</p></td><td><p>1.小数点后数字的个数；介于 0 到 20 （包括）之间</p></td></tr><tr><td><p>🍀 toPrecision</p></td><td><p>1.以指定的精度返回该数值对象的字符串表示</p></td></tr><tr><td><p>🍀 toString</p><p>🍀 toLocaleString</p></td><td></td></tr><tr><td><p>🍀 valueOf</p></td><td></td></tr></tbody></table></div>
+<table class="reference">
+  <tbody><tr>
+    <th style="width:20%">元字符</th>
+    <th>描述</th>
+  </tr>
+
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-dot.html">.</a></td>
+    <td>查找单个字符，除了换行和行结束符。</td>
+  </tr>
+
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-wordchar.html">\w</a></td>
+    <td>查找单词字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-wordchar-non.html">\W</a></td>
+    <td>查找非单词字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-digit.html">\d</a></td>
+    <td>查找数字。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-digit-non.html">\D</a></td>
+    <td>查找非数字字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-whitespace.html">\s</a></td>
+    <td>查找空白字符。</td>
+  </tr>
+	<tr>
+    <td><a target="_blank" href="jsref-regexp-whitespace-non.html">\S</a></td>
+    <td>查找非空白字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-begin.html">\b</a></td>
+    <td>匹配单词边界。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-begin-not.html">\B</a></td>
+    <td>匹配非单词边界。</td>
+  </tr>
+  <tr>
+    <td>\0</td>
+    <td>查找 NULL 字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-newline.html">\n</a></td>
+    <td>查找换行符。</td>
+  </tr>
+  <tr>
+    <td>\f</td>
+    <td>查找换页符。</td>
+  </tr>
+  <tr>
+    <td>\r</td>
+    <td>查找回车符。</td>
+  </tr>
+	<tr>
+    <td>\t</td>
+    <td>查找制表符。</td>
+  </tr>
+  <tr>
+    <td>\v</td>
+    <td>查找垂直制表符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-octal.html">\xxx</a></td>
+    <td>查找以八进制数 xxx 规定的字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-hex.html">\xdd</a></td>
+    <td>查找以十六进制数 dd 规定的字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-unicode-hex.html">\uxxxx</a></td>
+    <td>查找以十六进制数 xxxx 规定的 Unicode 字符。</td>
+  </tr>
+</tbody></table>
 </body>
 </html>

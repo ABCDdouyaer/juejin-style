@@ -12,6 +12,7 @@ import pro_ref from './js/pro_ref';
 import str from './js/str';
 import sym from './js/sym';
 import num from './js/num';
+import math from './js/math';
 
 import article from './article/index';
 const js = {
@@ -20,6 +21,7 @@ const js = {
     obj,
     str,
     num,
+    math,
     sym,
     pro_ref,
 }

@@ -1,49 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-    table{
-    display: table; 
-    text-align: left;
-}
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link src='./test.css'>
+		</link>
+	</head>
+	<body>
+		<table class="reference">
+  <tbody><tr>
+    <th style="width:20%">元字符</th>
+    <th>描述</th>
+  </tr>
 
-    tbody{
-        border: 0;
-    }
-    tr{
-        border: 0; 
-        border-top: 1px solid #ccc;
-        background-color: white;
-    }
-    th{
-        font-size: 16px; 
-        padding: 5px 10px; 
-        font-weight: bold; 
-        border: 1px solid #009688; 
-        background-color: #009688; 
-        color: #f8f8f8; 
-        border-bottom: 0; 
-        text-align: left;
-    }
-    td{
-        font-size: 16px; 
-        padding: 5px 10px; 
-        border: 1px solid #009688; 
-        text-align: left;
-    }
-    a{
-        text-decoration: none; 
-        word-wrap: break-word; 
-        font-weight: bold; 
-        color: #009688; 
-        border-bottom: 1px solid #009688;
-    }
-    </style>
-</head>
-<body>
-    <section><table><thead><tr><th>文章题目</th><th>文章要点</th></tr></thead><tbody><tr><td>hah</td></tr><tr><td>hah</td></tr></tbody></table></section>
-</body>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-dot.html">.</a></td>
+    <td>查找单个字符，除了换行和行结束符。</td>
+  </tr>
+
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-wordchar.html">\w</a></td>
+    <td>查找单词字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-wordchar-non.html">\W</a></td>
+    <td>查找非单词字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-digit.html">\d</a></td>
+    <td>查找数字。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-digit-non.html">\D</a></td>
+    <td>查找非数字字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-whitespace.html">\s</a></td>
+    <td>查找空白字符。</td>
+  </tr>
+	<tr>
+    <td><a target="_blank" href="jsref-regexp-whitespace-non.html">\S</a></td>
+    <td>查找非空白字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-begin.html">\b</a></td>
+    <td>匹配单词边界。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-begin-not.html">\B</a></td>
+    <td>匹配非单词边界。</td>
+  </tr>
+  <tr>
+    <td>\0</td>
+    <td>查找 NULL 字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-newline.html">\n</a></td>
+    <td>查找换行符。</td>
+  </tr>
+  <tr>
+    <td>\f</td>
+    <td>查找换页符。</td>
+  </tr>
+  <tr>
+    <td>\r</td>
+    <td>查找回车符。</td>
+  </tr>
+	<tr>
+    <td>\t</td>
+    <td>查找制表符。</td>
+  </tr>
+  <tr>
+    <td>\v</td>
+    <td>查找垂直制表符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-octal.html">\xxx</a></td>
+    <td>查找以八进制数 xxx 规定的字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-hex.html">\xdd</a></td>
+    <td>查找以十六进制数 dd 规定的字符。</td>
+  </tr>
+  <tr>
+    <td><a target="_blank" href="jsref-regexp-unicode-hex.html">\uxxxx</a></td>
+    <td>查找以十六进制数 xxxx 规定的 Unicode 字符。</td>
+  </tr>
+</tbody></table>
+	</body>
 </html>
